@@ -350,6 +350,22 @@ input[type=button] {
   margin: 0;
 }
 
+.map figure {
+    width: 100%;
+    height: 0;
+    padding-bottom: 125%;
+    overflow: hidden;
+    position: relative;
+}
+
+.map iframe {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
 /* ------------- Mobile Styles - FAQ ----------- */
 .faq {
   background-color: #527158;
@@ -501,12 +517,22 @@ input[type=button] {
 
   header nav ul {
     justify-content: space-between;
-    list-style: none;
+
   }
 
   .header-divider {
     display: none;
   }
+
+  .hero-area {
+    min-height: 600px;
+  }
+
+  .hero-area h1 {
+    font-size: 3em;
+    line-height: 1;
+    margin: 0;
+}
 
   /* Aside */
   aside .content-wrapper {
