@@ -132,6 +132,10 @@ img {
   width:100%;
 }
 
+figure {
+        margin: 0;
+}
+
 /* ------------- Base Header - Footer Styles ----------- */
 header,
 footer {
@@ -152,6 +156,14 @@ header .content-wrapper {
   align-items: center;
   flex-flow: row wrap;
   margin: 0;
+}
+
+header figure {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 .header-divider {
@@ -221,7 +233,8 @@ footer .copyright {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
-  background: url('../img/unplugged-bridge.jpeg') center no-repeat #333;
+  min-height: 500px;
+  background: url('../img/unplugged-bridge.jpg') center no-repeat #333;
   background-size: cover;
 
 }
@@ -273,6 +286,8 @@ input[type=button] {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  background: url('../img/unplugged-retreat-features.jpg') center no-repeat #333;
+  background-size: cover;
 }
 
 .features h2 {
